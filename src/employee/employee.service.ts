@@ -18,6 +18,7 @@ export class EmployeeService {
       {id:3, name:"UMER"},
     ]
     getAllEmployeeData(){ 
+      console.log("zubair")
       return this.employeList
     }
  
